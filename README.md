@@ -1,4 +1,4 @@
-# eventAnalyzer
+<img width="900" height="1411" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/ab9d054d-ba9e-4130-8fda-275b9312120f" /># eventAnalyzer
 
 A tool for analyzing Windows process activity and detecting suspicious behavior in exported Sysmon logs. eventAnalyzer is designed to reconstruct process ancestry, apply detection rules, and explain alerts using the records that produced them.
 
@@ -99,6 +99,9 @@ downloading the executable built by GitHub Actions, and creating a release.
 ## Architecture
 
 Sysmon supplies the telemetry. eventAnalyzer supplies the import, correlation, detection, and investigation logic. Saved recordings allow analysis and testing without a live collection session.
+
+<img width="900" height="1411" alt="a" src="https://github.com/user-attachments/assets/b667849a-fdd2-40e1-82db-92e3fb5a8a30" />
+
 
 ## Live Sysmon demo
 
