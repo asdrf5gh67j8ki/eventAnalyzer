@@ -1,0 +1,10 @@
+/build*/
+/.vs/
+/CMakeUserPresets.json
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+__pycache__/
+/dist/
+*.pyc

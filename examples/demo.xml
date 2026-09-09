@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <TimeCreated SystemTime="2026-09-09T12:00:01.000Z" />
+      <EventRecordID>102</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DEMO-PC</Computer>
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2026-09-09 12:00:01.000</Data>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000002}</Data>
+      <Data Name="ProcessId">200</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="User">DEMO\analyst</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000001}</Data>
+      <Data Name="ParentProcessId">100</Data>
+      <Data Name="ParentImage">C:\Program Files\Microsoft Office\WINWORD.EXE</Data>
+      <Data Name="CommandLine">powershell.exe -NoProfile -EncodedCommand VwByAGkAdABlAC0ATwB1AHQAcAB1AHQAIAAiAGQAZQBtAG8AIgA=</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <TimeCreated SystemTime="2026-09-09T12:00:00.000Z" />
+      <EventRecordID>101</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DEMO-PC</Computer>
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2026-09-09 12:00:00.000</Data>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000001}</Data>
+      <Data Name="ProcessId">100</Data>
+      <Data Name="Image">C:\Program Files\Microsoft Office\WINWORD.EXE</Data>
+      <Data Name="User">DEMO\analyst</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <TimeCreated SystemTime="2026-09-09T12:00:02.000Z" />
+      <EventRecordID>103</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DEMO-PC</Computer>
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2026-09-09 12:00:02.000</Data>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000003}</Data>
+      <Data Name="ProcessId">300</Data>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="User">DEMO\analyst</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000099}</Data>
+      <Data Name="ParentProcessId">9900</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="CommandLine">notepad.exe example.txt</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <TimeCreated SystemTime="2026-09-09T12:00:03.000Z" />
+      <EventRecordID>104</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>DEMO-PC</Computer>
+    </System>
+    <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2026-09-09 12:00:03.000</Data>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000004}</Data>
+      <Data Name="ProcessId">400</Data>
+      <Data Name="Image">C:\Windows\System32\wscript.exe</Data>
+      <Data Name="User">DEMO\analyst</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000001}</Data>
+      <Data Name="ParentProcessId">100</Data>
+      <Data Name="ParentImage">C:\Program Files\Microsoft Office\WINWORD.EXE</Data>
+      <Data Name="CommandLine">wscript.exe business-automation.vbs</Data>
+    </EventData>
+  </Event>
+</Events>

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "pugixml/pugixml.hpp",
+    "url": "https://raw.githubusercontent.com/zeux/pugixml/v1.16/src/pugixml.hpp",
+    "sha256": "0b7c94701df3d50981ffafe57f177c77b940e347c6e5d01073e4161f61299212"
+  },
+  {
+    "file": "pugixml/pugixml.cpp",
+    "url": "https://raw.githubusercontent.com/zeux/pugixml/v1.16/src/pugixml.cpp",
+    "sha256": "bd94cd9ec6ac67c0723422640bb243eab4a7c2d9fd5584dab77305a50fa31ef4"
+  },
+  {
+    "file": "pugixml/pugiconfig.hpp",
+    "url": "https://raw.githubusercontent.com/zeux/pugixml/v1.16/src/pugiconfig.hpp",
+    "sha256": "e6c51fbc9a765608bd214ea47d229d3bbd6b650036cdffc94b96b498c202495c"
+  },
+  {
+    "file": "pugixml/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/zeux/pugixml/v1.16/LICENSE.md",
+    "sha256": "90974fbb120e966b452654eaae3ba6ee55f3647db3b28918a7649733ee99da97"
+  },
+  {
+    "file": "sqlite3/sqlite3.c",
+    "url": "https://www.sqlite.org/2026/sqlite-amalgamation-3530400.zip",
+    "archive_sha3_256": "628a44cfe82c66aed1ccbbe85a562d2e33ebe64b3288981ed76285612227934e",
+    "sha256": "b1dd5d74ec7f29055a6684fa06fb3c2f6821c87dd38f9a458dfd2e8a1db28189"
+  },
+  {
+    "file": "sqlite3/sqlite3.h",
+    "url": "https://www.sqlite.org/2026/sqlite-amalgamation-3530400.zip",
+    "archive_sha3_256": "628a44cfe82c66aed1ccbbe85a562d2e33ebe64b3288981ed76285612227934e",
+    "sha256": "919e7f2e8ed1d8f56ac17b412b8971c76aa5d1a879752cc6058f75e7d5910e1d"
+  }
+]
