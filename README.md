@@ -1,4 +1,4 @@
-<img width="900" height="1411" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/ab9d054d-ba9e-4130-8fda-275b9312120f" /># eventAnalyzer
+# eventAnalyzer
 
 A tool for analyzing Windows process activity and detecting suspicious behavior in exported Sysmon logs. eventAnalyzer is designed to reconstruct process ancestry, apply detection rules, and explain alerts using the records that produced them.
 
